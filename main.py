@@ -8,6 +8,7 @@ from src.Classes.ui_class_wrapper import uiDesignWrapper
 
 
 
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     main_window = uiDesignWrapper()

@@ -21,6 +21,7 @@ from PySide6.QtWidgets import (QAbstractScrollArea, QApplication, QCheckBox, QHB
     QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
+
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
